@@ -3,7 +3,7 @@
  * @param {*} network
  */
 function energy(network) {
-const W = network.W,
+    const W = network.W,
           V = network.V,
           θ = network.θ;
     return W.mul(outer(V, V)).div(-2).sum() - V.mul(θ).sum();
