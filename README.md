@@ -1,2 +1,1 @@
-# hopfield
-a hopfield network with a minimal implementation of tensors (for some reason)
+just a hopfield network written in javascript
